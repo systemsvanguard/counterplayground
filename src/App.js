@@ -93,6 +93,8 @@ function App() {
     
         <br /><br />
         <img src={TheCount4} className="img_responsive" alt="Count It Higher" title="Count It Higher" />
+        <br /><br /> 
+        <h3 className="is-size-4  has-text-centered">GitHub link : <a href="https://github.com/systemsvanguard/counterplayground">Counting Playground</a></h3>
         <br /><br />     
 
     </section>
