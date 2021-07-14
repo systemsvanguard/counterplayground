@@ -1,0 +1,76 @@
+/* src/index.css */
+/* Styling for 'The Count Playground' app */
+
+* {
+  boxSizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Mukta Malar", Helvetica, "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 1.4em;
+  background-color: #fcfcfc;
+  color: #00008b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: justify;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+.img_responsive  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* CSS for footer navigation bar */
+#ul-footernav {
+  list-style: none;
+  overflow:hidden;
+  background:#eef3fc;
+  margin:0;
+  padding:0;
+}
+#ul-footernav li a {
+  text-align:center;
+  font-weight: bold;
+  color:#2160c4;
+  padding:10px;
+  width:95px;
+}
+
+#ul-footernav li {
+  float:left;
+}
+
+#ul-footernav li:hover {
+  background:#2160c4;
+  color: #ff3860;
+}
+#ul-footernav li:hover a {
+  color: #ffffff;
+}
+#ul-footernav  a {
+  display:block;
+}
+
+#p-navfooter {
+  text-align: center
+}
+
+.footernav_outer {
+  text-align: center;
+}
+
+.footernav_inner {
+  display: inline-block;
+}
